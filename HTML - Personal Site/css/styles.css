@@ -1,0 +1,57 @@
+/***********TAG SELECTORS************/
+
+::selection {
+  background: #9be3de;
+}
+body {
+  background-color: #EAF6F6;
+  font-family: "Verdana", sans-serif;
+  /*font-family: "Georgia", serif;*/
+  /*font-family: "Lucida Console", monospace*/
+}
+
+hr {
+  border-style:none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1, h2, h3 {
+  color: #66BFBF;
+}
+
+
+img{
+  background-color: lavender;
+}
+
+
+/************CLASS SELECTORS*************/
+
+.unicorn{
+  background-color: #66BFBF;
+}
+
+.whale {
+  background-color: #ff8ba7;
+}
+
+.whale:hover {
+  background-color: #ffc6c7;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.url:hover {
+  color: #8bbabb;
+}
+
+/******************ID SELECTORS*****************/
+
+#heading {
+  color: #8bbabb;
+}
