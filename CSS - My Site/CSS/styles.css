@@ -1,0 +1,146 @@
+body {
+  /*background-image: linear-gradient(red, yellow);*/
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: # e4f9ff;fffdf9;
+  color: #40514E;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 4.5rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+hr{
+  border: none;
+  border-top: dotted #dbdbdb 6px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+
+/**CLASS SELECTORS**/
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  line-height: 0;
+}
+
+.middle-container {
+}
+
+
+.bottom-container {
+  margin: 100px auto 0 auto;
+  padding: 50px 0 16px;
+  background-color: #66BFBF;
+  /*background-image: linear-gradient(purple, pink);
+  background-color: #f67280;*/
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.book-img {
+  width: 40%;
+  height: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-img {
+  width: 30%;
+  height: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.pro {
+  text-decoration-line: underline;
+}
+
+.about {
+  width: 40%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 150px auto;
+  text-align: left;
+}
+
+.btn {
+	font-family: 'Montserrats', sans-serif;
+	border-radius: 6px;
+	background: white;
+	border: 1px solid #7289da;
+	padding: 10px 20px 10px 20px;
+	color: #7289da;
+	font-size: 20px;
+	transition: background 0.25s,color 0.5s;
+}
+
+.btn:hover {
+	background: #7289da;
+	color: white;
+	cursor: pointer;
+}
+
+.btn:active {
+	background:#7289da;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #11999E;
+  margin: 10px 20px;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+/**ID SELECTORS**/
